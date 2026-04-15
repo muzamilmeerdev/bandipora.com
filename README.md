@@ -1,1 +1,0 @@
-# bandipora.com
