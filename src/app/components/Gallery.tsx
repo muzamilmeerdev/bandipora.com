@@ -8,7 +8,7 @@ export function Gallery() {
 const images = [
   {
     url: 'https://www.kashmirnewsobserver.com/userfiles/image/s_637414659666750788_d51283b3-8a5e-42ad-a28d-fb185343eb72.jpg',
-    category: 'Nature',
+    category: 'Hospital',
   },
   {
     url: 'https://images.unsplash.com/photo-1668829297425-a3732c217ebd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxIaW1hbGF5YW4lMjBtb3VudGFpbiUyMHBlYWtzfGVufDF8fHx8MTc3NjI4NjQwOXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
