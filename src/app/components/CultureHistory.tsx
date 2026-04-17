@@ -50,11 +50,11 @@ export function CultureHistory() {
           className="text-center mb-16"
         >
           <h2 className="text-5xl md:text-6xl font-bold text-white mb-6">
-            Culture & History
+            DEVELOPER 
           </h2>
           <div className="w-24 h-1 bg-emerald-400 mx-auto mb-8"></div>
           <p className="text-xl text-white/80 max-w-3xl mx-auto">
-            Discover the rich cultural heritage and historical significance of Bandipora
+          Digital Developer of this website
           </p>
         </motion.div>
 
@@ -79,7 +79,8 @@ export function CultureHistory() {
                 viewport={{ once: true }}
                 className="text-4xl font-bold text-white mb-4"
               >
-                A Legacy of Tradition
+                This website is designed and developed by [MUZAMIL AHMAD MIR].
+
               </motion.h3>
               <motion.p
                 initial={{ opacity: 0, x: -30 }}
@@ -88,7 +89,8 @@ export function CultureHistory() {
                 transition={{ delay: 0.2 }}
                 className="text-xl text-white/90"
               >
-                Where ancient heritage meets vibrant culture
+                
+I have created this platform to represent our village digitally and make information easily accessible for everyone.
               </motion.p>
             </div>
           </div>
