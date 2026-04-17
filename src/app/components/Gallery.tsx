@@ -31,8 +31,8 @@ const images = [
     category: 'Nishat Park',
   },
   {
-    url: '',
-    category: 'Lakes',
+    url: 'https://cdn.s3waas.gov.in/s3918317b57931b6b7a7d29490fe5ec9f9/uploads/2018/12/17582602451471-1024x683.jpg',
+    category: 'I Love Bandipora',
   },
   {
     url: '',
