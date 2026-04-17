@@ -23,8 +23,8 @@ const images = [
     category: 'I Love Wullar',
   },
   {
-    url: 'https://images.unsplash.com/photo-1623482564246-0601b9aa1af1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxLYXNobWlyJTIwdmFsbGV5JTIwbGFuZHNjYXBlfGVufDF8fHx8MTc3NjI4NjQxMHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-    category: 'Nature',
+    url: 'https://cdn.s3waas.gov.in/s3918317b57931b6b7a7d29490fe5ec9f9/uploads/2018/12/17591320279062-1024x461.jpg',
+    category: 'Wullar lake',
   },
   {
     url: 'https://images.unsplash.com/photo-1637504344961-8312bba86074?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxLYXNobWlyJTIwZm9yZXN0JTIwbmF0dXJlfGVufDF8fHx8MTc3NjI4NjQwOXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
