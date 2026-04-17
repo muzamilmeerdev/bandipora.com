@@ -50,7 +50,7 @@ export function Contact() {
   const socialLinks = [
     { icon: Facebook, label: 'Facebook', href: '#', color: 'hover:text-blue-400' },
     { icon: Twitter, label: 'Twitter', href: '#', color: 'hover:text-sky-400' },
-    { icon: Instagram, label: 'Instagram', href: '#', color: 'hover:text-pink-400' },
+    { icon: Instagram, label: 'Instagram', href: 'https://www.instagram.com/muzamilmeerdev?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==', color: 'hover:text-pink-400' },
     { icon: Youtube, label: 'YouTube', href: '#', color: 'hover:text-red-400' },
   ];
 
