@@ -39,8 +39,8 @@ const images = [
     category: 'HIGH SCHOOL CHANPAL',
   },
   {
-    url: '',
-    category: 'Mountains',
+    url: 'https://lh3.googleusercontent.com/p/AF1QipPq3j6C4zd95kL8YMdHRzeRU1SV2r3jbz3jnaLj=s1360-w1360-h1020-rw',
+    category: 'Higher Secondary School Aragam',
   },
 ];
 
