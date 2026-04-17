@@ -36,7 +36,7 @@ const images = [
   },
   {
     url: 'https://scontent.fixc1-4.fna.fbcdn.net/v/t39.30808-6/621991672_1301667381982030_155422073974537742_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=7b2446&_nc_ohc=R43yErgj7gAQ7kNvwHkXI9F&_nc_oc=Adr3_aMDN8gdqu81U3V2p-6Cm7HCZ_BjsIongn-XjGV19nqQhL6L5y5NnIlXbt0R5AQ&_nc_zt=23&_nc_ht=scontent.fixc1-4.fna&_nc_gid=-IGuMvcWw38r6WXGMgY_Hw&_nc_ss=7a389&oh=00_Af2JWUZcnVFK7TdBb1l3Fj55FhJdEwjtw9qb8ZlJ77jSQw&oe=69E88313',
-    category: 'Nature',
+    category: 'HIGH SCHOOL CHANPAL',
   },
   {
     url: '',
