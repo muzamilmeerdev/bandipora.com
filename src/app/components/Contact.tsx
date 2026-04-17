@@ -29,7 +29,7 @@ export function Contact() {
           email: formData.email,
           subject: formData.subject,
           message: formData.message,
-          to: 'muzamilmeer598@gmail.com',
+          to: 'wellcomebackdevelopers@gmail.com',
           replyto: formData.email,
           from_name: "Explore Bandipora"
         }),
