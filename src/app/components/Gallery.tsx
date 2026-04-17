@@ -27,19 +27,19 @@ const images = [
     category: 'Wullar lake',
   },
   {
-    url: 'https://images.unsplash.com/photo-1637504344961-8312bba86074?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxLYXNobWlyJTIwZm9yZXN0JTIwbmF0dXJlfGVufDF8fHx8MTc3NjI4NjQwOXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-    category: 'Nature',
+    url: 'https://cdn.s3waas.gov.in/s3918317b57931b6b7a7d29490fe5ec9f9/uploads/2018/08/2018080958.jpg',
+    category: 'Nishat Park',
   },
   {
-    url: 'https://images.unsplash.com/photo-1712998000742-f1a3ad98fa71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxLYXNobWlyJTIwaG91c2Vib2F0cyUyMHdhdGVyfGVufDF8fHx8MTc3NjI4NjQxMHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    url: '',
     category: 'Lakes',
   },
   {
-    url: 'https://images.unsplash.com/photo-1643449415972-87d4cfe882a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxLYXNobWlyJTIwbWVhZG93JTIwZmxvd2Vyc3xlbnwxfHx8fDE3NzYyODY0MTF8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    url: '',
     category: 'Nature',
   },
   {
-    url: 'https://images.unsplash.com/photo-1707557220564-0a0405c4d00a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxHdXJleiUyMFZhbGxleSUyMEthc2htaXJ8ZW58MXx8fHwxNzc2Mjg2NDA4fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    url: '',
     category: 'Mountains',
   },
 ];
