@@ -11,8 +11,8 @@ const images = [
     category: 'Hospital',
   },
   {
-    url: 'https://images.unsplash.com/photo-1668829297425-a3732c217ebd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxIaW1hbGF5YW4lMjBtb3VudGFpbiUyMHBlYWtzfGVufDF8fHx8MTc3NjI4NjQwOXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-    category: 'Mountains',
+    url: 'https://cdn.s3waas.gov.in/s3918317b57931b6b7a7d29490fe5ec9f9/uploads/2018/08/2018080932-1024x738.jpg',
+    category: 'Darul Uloom Rehimiyyah',
   },
   {
     url: 'https://images.unsplash.com/photo-1631551437792-ae5a0fb41c49?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb3VudGFpbiUyMGxha2UlMjByZWZsZWN0aW9ufGVufDF8fHx8MTc3NjE5NTkyMXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
