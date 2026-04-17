@@ -24,7 +24,7 @@ export function Contact() {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          access_key: 'YOUR_WEB3FORMS_ACCESS_KEY', // Yahan apni Web3Forms key dalein
+          access_key: 'a12b8c50-d46a-4d2a-ab45-b6a0b216a2d4', // Yahan apni Web3Forms key dalein
           name: formData.name,
           email: formData.email,
           subject: formData.subject,
