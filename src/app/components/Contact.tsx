@@ -58,13 +58,13 @@ export function Contact() {
     {
       icon: Mail,
       title: 'Email',
-      detail: 'info@bandipore-explorer.com',
+      detail: 'wellcombackdevelopers@gmail.com',
       color: 'from-blue-500 to-cyan-500',
     },
     {
       icon: Phone,
       title: 'Phone',
-      detail: '+91 1234567890',
+      detail: '+91 9103983439 ',
       color: 'from-green-500 to-emerald-500',
     },
     {
