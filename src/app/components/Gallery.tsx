@@ -4,44 +4,45 @@ import { X, ChevronLeft, ChevronRight } from 'lucide-react';
 
 export function Gallery() {
   const [selectedImage, setSelectedImage] = useState<number | null>(null);
-
-  const images = [
-    {
-      url: 'https://www.kashmirnewsobserver.com/userfiles/image/s_637414659666750788_d51283b3-8a5e-42ad-a28d-fb185343eb72.jpg :'Nature',
-    },
-    {
-      url: 'https://images.unsplash.com/photo-1668829297425-a3732c217ebd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxIaW1hbGF5YW4lMjBtb3VudGFpbiUyMHBlYWtzfGVufDF8fHx8MTc3NjI4NjQwOXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      category: 'Mountains',
-    },
-    {
-      url: 'https://images.unsplash.com/photo-1631551437792-ae5a0fb41c49?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb3VudGFpbiUyMGxha2UlMjByZWZsZWN0aW9ufGVufDF8fHx8MTc3NjE5NTkyMXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      category: 'Lakes',
-    },
-    {
-      url: 'https://images.unsplash.com/photo-1761387829550-d4b6af443008?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxLYXNobWlyJTIwdmlsbGFnZSUyMHRyYWRpdGlvbmFsfGVufDF8fHx8MTc3NjI4NjQwOXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      category: 'Villages',
-    },
-    {
-      url: 'https://images.unsplash.com/photo-1623482564246-0601b9aa1af1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxLYXNobWlyJTIwdmFsbGV5JTIwbGFuZHNjYXBlfGVufDF8fHx8MTc3NjI4NjQxMHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      category: 'Nature',
-    },
-    {
-      url: 'https://images.unsplash.com/photo-1637504344961-8312bba86074?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxLYXNobWlyJTIwZm9yZXN0JTIwbmF0dXJlfGVufDF8fHx8MTc3NjI4NjQwOXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      category: 'Nature',
-    },
-    {
-      url: 'https://images.unsplash.com/photo-1712998000742-f1a3ad98fa71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxLYXNobWlyJTIwaG91c2Vib2F0cyUyMHdhdGVyfGVufDF8fHx8MTc3NjI4NjQxMHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      category: 'Lakes',
-    },
-    {
-      url: 'https://images.unsplash.com/photo-1643449415972-87d4cfe882a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxLYXNobWlyJTIwbWVhZG93JTIwZmxvd2Vyc3xlbnwxfHx8fDE3NzYyODY0MTF8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      category: 'Nature',
-    },
-    {
-      url: 'https://images.unsplash.com/photo-1707557220564-0a0405c4d00a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxHdXJleiUyMFZhbGxleSUyMEthc2htaXJ8ZW58MXx8fHwxNzc2Mjg2NDA4fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      category: 'Mountains',
-    },
-  ];
+  
+const images = [
+  {
+    url: 'https://www.kashmirnewsobserver.com/userfiles/image/s_637414659666750788_d51283b3-8a5e-42ad-a28d-fb185343eb72.jpg',
+    category: 'Nature',
+  },
+  {
+    url: 'https://images.unsplash.com/photo-1668829297425-a3732c217ebd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxIaW1hbGF5YW4lMjBtb3VudGFpbiUyMHBlYWtzfGVufDF8fHx8MTc3NjI4NjQwOXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    category: 'Mountains',
+  },
+  {
+    url: 'https://images.unsplash.com/photo-1631551437792-ae5a0fb41c49?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb3VudGFpbiUyMGxha2UlMjByZWZsZWN0aW9ufGVufDF8fHx8MTc3NjE5NTkyMXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    category: 'Lakes',
+  },
+  {
+    url: 'https://images.unsplash.com/photo-1761387829550-d4b6af443008?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxLYXNobWlyJTIwdmlsbGFnZSUyMHRyYWRpdGlvbmFsfGVufDF8fHx8MTc3NjI4NjQwOXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    category: 'Villages',
+  },
+  {
+    url: 'https://images.unsplash.com/photo-1623482564246-0601b9aa1af1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxLYXNobWlyJTIwdmFsbGV5JTIwbGFuZHNjYXBlfGVufDF8fHx8MTc3NjI4NjQxMHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    category: 'Nature',
+  },
+  {
+    url: 'https://images.unsplash.com/photo-1637504344961-8312bba86074?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxLYXNobWlyJTIwZm9yZXN0JTIwbmF0dXJlfGVufDF8fHx8MTc3NjI4NjQwOXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    category: 'Nature',
+  },
+  {
+    url: 'https://images.unsplash.com/photo-1712998000742-f1a3ad98fa71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxLYXNobWlyJTIwaG91c2Vib2F0cyUyMHdhdGVyfGVufDF8fHx8MTc3NjI4NjQxMHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    category: 'Lakes',
+  },
+  {
+    url: 'https://images.unsplash.com/photo-1643449415972-87d4cfe882a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxLYXNobWlyJTIwbWVhZG93JTIwZmxvd2Vyc3xlbnwxfHx8fDE3NzYyODY0MTF8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    category: 'Nature',
+  },
+  {
+    url: 'https://images.unsplash.com/photo-1707557220564-0a0405c4d00a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxHdXJleiUyMFZhbGxleSUyMEthc2htaXJ8ZW58MXx8fHwxNzc2Mjg2NDA4fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    category: 'Mountains',
+  },
+];
 
   const handlePrevious = () => {
     if (selectedImage !== null) {
