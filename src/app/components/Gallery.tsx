@@ -19,8 +19,8 @@ const images = [
     category: 'Athwattoo Tourist Destination',
   },
   {
-    url: 'https://images.unsplash.com/photo-1761387829550-d4b6af443008?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxLYXNobWlyJTIwdmlsbGFnZSUyMHRyYWRpdGlvbmFsfGVufDF8fHx8MTc3NjI4NjQwOXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-    category: 'Villages',
+    url: 'https://cdn.s3waas.gov.in/s3918317b57931b6b7a7d29490fe5ec9f9/uploads/2018/12/17582606197491-1024x683.jpg',
+    category: 'I Love Wullar',
   },
   {
     url: 'https://images.unsplash.com/photo-1623482564246-0601b9aa1af1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxLYXNobWlyJTIwdmFsbGV5JTIwbGFuZHNjYXBlfGVufDF8fHx8MTc3NjI4NjQxMHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
