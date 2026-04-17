@@ -79,7 +79,7 @@ export function CultureHistory() {
                 viewport={{ once: true }}
                 className="text-4xl font-bold text-white mb-4"
               >
-                This website is designed and developed by [MUZAMIL AHMAD MIR].
+                This website is developed by MUZAMIL AHMAD MIR.
 
               </motion.h3>
               <motion.p
