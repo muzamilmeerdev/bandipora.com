@@ -1,48 +1,87 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { MapPin, Navigation, X } from 'lucide-react';
+import { MapPin, Navigation, X, ExternalLink } from 'lucide-react';
+
+interface Location {
+  name: string;
+  description: string;
+  coordinates: { top: string; left: string };
+  details: string;
+  lat?: number;
+  lng?: number;
+  customUrl?: string;
+}
 
 export function MapLocation() {
   const [selectedLocation, setSelectedLocation] = useState<number | null>(null);
 
-  const locations = [
+  const locations: Location[] = [
     {
       name: 'Bandipora Town',
       description: 'District headquarters with markets, schools, and administrative offices',
       coordinates: { top: '50%', left: '50%' },
       details: 'Main commercial and administrative center of the district',
+      lat: 34.4166,
+      lng: 74.6389,
     },
     {
       name: 'Chattibandi',
       description: 'Scenic area known for its natural beauty and peaceful environment',
       coordinates: { top: '35%', left: '40%' },
       details: 'Popular among locals for its serene landscapes and traditional villages',
+      lat: 34.4654,
+      lng: 74.6125,
     },
     {
       name: 'Chanpal',
-      description: 'Beautiful location near Wular Lake with stunning water views',
+      description: 'Beautiful location in upper side near Higher Secondary School Chanpal',
       coordinates: { top: '60%', left: '45%' },
-      details: 'Gateway to Wular Lake with fishing and boating activities',
+      details: 'Educational hub with scenic mountain views and peaceful environment near HSS Chanpal',
+      lat: 34.3842,
+      lng: 74.6258,
     },
     {
       name: 'Wular Lake',
       description: 'Asia\'s largest freshwater lake - a natural wonder',
       coordinates: { top: '65%', left: '60%' },
       details: 'Major tourist attraction and important wetland ecosystem',
+      lat: 34.3833,
+      lng: 74.6000,
     },
     {
       name: 'Gurez Valley',
       description: 'Breathtaking valley accessible via scenic mountain roads',
       coordinates: { top: '20%', left: '70%' },
       details: 'Remote paradise with stunning Himalayan views and traditional culture',
+      lat: 34.6583,
+      lng: 74.8500,
     },
     {
       name: 'Sumbal',
       description: 'Town known for its agricultural activities and local markets',
       coordinates: { top: '75%', left: '35%' },
       details: 'Important trading center with rich agricultural heritage',
+      lat: 34.2500,
+      lng: 74.6333,
+    },
+    {
+      name: 'Bandipora Software Developer',
+      description: 'Home of Muzamil Ahmad Mir - Full Stack Developer',
+      coordinates: { top: '48%', left: '52%' },
+      details: 'Software development services and IT solutions provider in Bandipora',
+      customUrl: 'https://share.google/OJw5vM79VoxO8UMCz',
     },
   ];
+
+  const openInMaps = (location: Location) => {
+    // If custom URL is provided, use that; otherwise generate Google Maps URL
+    if (location.customUrl) {
+      window.open(location.customUrl, '_blank');
+    } else if (location.lat && location.lng) {
+      const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${location.lat},${location.lng}`;
+      window.open(googleMapsUrl, '_blank');
+    }
+  };
 
   return (
     <section className="relative py-24 px-4 overflow-hidden">
@@ -203,11 +242,23 @@ export function MapLocation() {
                     {locations[selectedLocation].description}
                   </p>
 
-                  <div className="bg-white/5 rounded-2xl p-6 border border-white/10">
+                  <div className="bg-white/5 rounded-2xl p-6 border border-white/10 mb-6">
                     <p className="text-white/80 leading-relaxed">
                       {locations[selectedLocation].details}
                     </p>
                   </div>
+
+                  {/* Open in Maps Button */}
+                  <motion.button
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                    onClick={() => openInMaps(locations[selectedLocation])}
+                    className="w-full bg-gradient-to-r from-emerald-500 to-green-500 text-white font-bold py-4 px-6 rounded-xl shadow-lg flex items-center justify-center space-x-2 hover:from-emerald-600 hover:to-green-600 transition-all"
+                  >
+                    <MapPin size={24} />
+                    <span>Open in Google Maps</span>
+                    <ExternalLink size={20} />
+                  </motion.button>
                 </motion.div>
               ) : (
                 <motion.div
