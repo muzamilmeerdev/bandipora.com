@@ -30,6 +30,8 @@ export function Contact() {
           subject: formData.subject,
           message: formData.message,
           to: 'muzamilmeer598@gmail.com',
+          replyto: formData.email,
+          from_name: "Explore Bandipora"
         }),
       });
 
