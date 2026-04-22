@@ -1,39 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
+  <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <!-- Home Page -->
   <url>
     <loc>https://bandipora-com.vercel.app/</loc>
   </url>
 
-  <!-- Other Pages -->
   <url>
-    <loc>https://bandipora-com.vercel.app/about</loc>
+    <loc>https://bandipora-com.vercel.app/skills</loc>
   </url>
 
   <url>
-    <loc>https://bandipora-com.vercel.app/attraction</loc>
+    <loc>https://bandipora-com.vercel.app/projects</loc>
   </url>
 
   <url>
-    <loc>https://bandipora-com.vercel.app/gallery</loc>
+    <loc>https://bandipora-com.vercel.app/contact</loc>
   </url>
 
-  <url>
-    <loc>https://bandipora-com.vercel.app/culture</loc>
-  </url>
-
-  <url>
-    <loc>https://bandipora-com.vercel.app/development</loc>
-  </url>
-
-  <url>
-    <loc>https://bandipora-com.vercel.app/info</loc>
-  </url>
-
-  <url>
-    <loc>https://bandipora-com.vercel.app/map</loc>
-  </url>
+</urlset>
 
   <url>
     <loc>https://bandipora-com.vercel.app/contact</loc>
