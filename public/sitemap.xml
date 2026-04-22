@@ -5,4 +5,24 @@
     <loc>https://bandipora-com.vercel.app/</loc>
   </url>
 
+  <url>
+    <loc>https://bandipora-com.vercel.app/about</loc>
+  </url>
+
+  <url>
+    <loc>https://bandipora-com.vercel.app/skills</loc>
+  </url>
+
+  <url>
+    <loc>https://bandipora-com.vercel.app/tools</loc>
+  </url>
+
+  <url>
+    <loc>https://bandipora-com.vercel.app/projects</loc>
+  </url>
+
+  <url>
+    <loc>https://bandipora-com.vercel.app/contact</loc>
+  </url>
+
 </urlset>
