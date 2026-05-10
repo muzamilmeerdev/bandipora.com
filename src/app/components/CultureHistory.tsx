@@ -66,13 +66,8 @@ export function CultureHistory() {
           className="mb-16"
         >
           <div className="relative h-96 rounded-3xl overflow-hidden">
-           <a href="https://res.cloudinary.com/dxjkbpmgm/image/upload/v1778400212/IMG_20260506_210239_f2wwv8.png" target="_blank">
-  <img 
-    src="https://res.cloudinary.com/dxjkbpmgm/image/upload/v1778400212/IMG_20260506_210239_f2wwv8.png" 
-    alt="Image"
-    style="width:300px; cursor:pointer;"
-  >
-</a>
+    <img
+              src="https://res.cloudinary.com/dxjkbpmgm/image/upload/v1778400212/IMG_20260506_210239_f2wwv8.png"
               alt="Kashmir Culture"
               className="w-full h-full object-cover"
             />
