@@ -4,4 +4,3 @@
     alt="Image"
     style="cursor:pointer;"
   >
-</a>
