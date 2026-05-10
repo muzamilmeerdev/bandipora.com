@@ -140,7 +140,7 @@ export function Info() {
                   <div className="w-2 h-2 bg-emerald-400 rounded-full mt-2"></div>
                   <div>
                     <p className="text-white/90">
-                      <span className="font-semibold">Main Languages:</span> Kashmiri, Urdu, Hindi
+                      <span className="font-semibold">Main Languages:</span> Kashmiri, Urdu, Hindi,Pahadi,Gojjer
                     </p>
                   </div>
                 </div>
@@ -167,7 +167,7 @@ export function Info() {
                   <div className="w-2 h-2 bg-blue-400 rounded-full mt-2"></div>
                   <div>
                     <p className="text-white/90">
-                      <span className="font-semibold">Nearest Airport:</span> Srinagar International Airport (60 km)
+                      <span className="font-semibold">Nearest Airport:</span> Srinagar International Airport (62 km)
                     </p>
                   </div>
                 </div>
