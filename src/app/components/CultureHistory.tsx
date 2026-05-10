@@ -66,7 +66,7 @@ export function CultureHistory() {
           className="mb-16"
         >
           <div className="relative h-96 rounded-3xl overflow-hidden">
-
+jfdnljcnblcvnblmcvnmbnkcjdfnkjndkjvncxv
               alt="Kashmir Culture"
               className="w-full h-full object-cover"
             />
