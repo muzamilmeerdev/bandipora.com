@@ -67,7 +67,7 @@ export function CultureHistory() {
         >
           <div className="relative h-96 rounded-3xl overflow-hidden">
             <img
-              src="https://lh3.googleusercontent.com/C1hEG46vQ8ofMsLxK0do-nTgdpGXUOXfEwrDhmRVJN_DjubVjK8kAU8ewk8v0cLrQYNdqpzR6deyO-h6=s360-w360-h360"
+              src="/C1hEG46vQ8ofMsLxK0do-nTgdpGXUOXfEwrDhmRVJN_DjubVjK8kAU8ewk8v0cLrQYNdqpzR6deyO-h6=s360-w360-h360"
               alt="Kashmir Culture"
               className="w-full h-full object-cover"
             />
