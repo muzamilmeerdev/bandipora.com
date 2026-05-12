@@ -67,7 +67,7 @@ export function CultureHistory() {
         >
           <div className="relative h-96 rounded-3xl overflow-hidden">
             
-              alt="Kashmir Culture"
+              alt=""
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent"></div>
