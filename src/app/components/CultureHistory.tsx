@@ -65,9 +65,17 @@ export function CultureHistory() {
           viewport={{ once: true }}
           className="mb-16"
         >
+                    <div className="relative h-96 rounded-3xl overflow-hidden">
+<a href="https://res.cloudinary.com/dxjkbpmgm/image/upload/v1778400212/IMG_20260506_210239_f2wwv8.png" target="_blank">
+  <img 
+    src="https://res.cloudinary.com/dxjkbpmgm/image/upload/v1778400212/IMG_20260506_210239_f2wwv8.png" 
+    alt="Image"
+    style="width:300px; cursor:pointer;"
+  >
+</a>
           <div className="relative h-96 rounded-3xl overflow-hidden">
             
-              alt=""
+              alt="Kashmir Culture"
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent"></div>
