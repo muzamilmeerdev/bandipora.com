@@ -74,27 +74,31 @@ export function CultureHistory() {
           viewport={{ once: true }}
           className="mb-16"
         >
-          <div className="relative h-96 rounded-3xl overflow-hidden">
+          <div className="relative h-[500px] rounded-3xl overflow-hidden group">
+            {/* Clickable Image */}
             <a
-              href="https://res.cloudinary.com/dxjkbpmgm/image/upload/v1778400212/IMG_20260506_210239_f2wwv8.png"
+              href="https://res.cloudinary.com/dxjkbpmgm/image/upload/v1779790372/WhatsApp_Image_2026-05-26_at_3.38.15_PM_yv63vk.jpg"
               target="_blank"
               rel="noopener noreferrer"
+              className="block w-full h-full"
             >
               <img
                 src="https://res.cloudinary.com/dxjkbpmgm/image/upload/v1779790372/WhatsApp_Image_2026-05-26_at_3.38.15_PM_yv63vk.jpg"
                 alt="Muzamil Ahmad Mir"
-                className="w-full h-full object-cover cursor-pointer"
+                className="w-full h-full object-cover cursor-pointer transition-transform duration-500 group-hover:scale-105"
               />
             </a>
 
-            <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent"></div>
+            {/* Overlay */}
+            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent pointer-events-none"></div>
 
-            <div className="absolute bottom-8 left-8 right-8">
+            {/* Text Content */}
+            <div className="absolute bottom-8 left-8 right-8 z-10">
               <motion.h3
                 initial={{ opacity: 0, x: -30 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
-                className="text-4xl font-bold text-white mb-4"
+                className="text-3xl md:text-5xl font-bold text-white mb-4"
               >
                 This website is developed by MUZAMIL AHMAD MIR.
               </motion.h3>
@@ -104,7 +108,7 @@ export function CultureHistory() {
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: 0.2 }}
-                className="text-xl text-white/90"
+                className="text-lg md:text-xl text-white/90 max-w-3xl"
               >
                 I have created this platform to represent our village digitally
                 and make information easily accessible for everyone.
@@ -122,7 +126,7 @@ export function CultureHistory() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.1 }}
-              whileHover={{ scale: 1.05 }}
+              whileHover={{ scale: 1.03 }}
               className="relative group"
             >
               <div className="bg-white/10 backdrop-blur-lg border border-white/20 rounded-3xl p-8 shadow-2xl h-full">
@@ -145,7 +149,7 @@ export function CultureHistory() {
                   {item.description}
                 </p>
 
-                {/* Decorative Element */}
+                {/* Decorative Glow */}
                 <div
                   className={`absolute top-0 right-0 w-32 h-32 bg-gradient-to-br ${item.color} opacity-10 rounded-bl-full blur-2xl -z-10`}
                 ></div>
