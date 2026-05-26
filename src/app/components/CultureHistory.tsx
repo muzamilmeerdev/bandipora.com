@@ -6,25 +6,29 @@ export function CultureHistory() {
     {
       icon: Landmark,
       title: 'Silk Route Heritage',
-      description: 'Bandipora was an important stop on the ancient Silk Route, connecting Kashmir with Central Asia. This historic trade route brought prosperity and cultural exchange to the region.',
+      description:
+        'Bandipora was an important stop on the ancient Silk Route, connecting Kashmir with Central Asia. This historic trade route brought prosperity and cultural exchange to the region.',
       color: 'from-amber-500 to-orange-500',
     },
     {
       icon: Users,
       title: 'Kashmiri Culture',
-      description: 'The district preserves rich Kashmiri traditions including folk music, traditional crafts, and warm hospitality. Local festivals celebrate the region\'s cultural diversity.',
+      description:
+        "The district preserves rich Kashmiri traditions including folk music, traditional crafts, and warm hospitality. Local festivals celebrate the region's cultural diversity.",
       color: 'from-purple-500 to-pink-500',
     },
     {
       icon: BookOpen,
       title: 'Traditional Crafts',
-      description: 'Known for handwoven textiles, wood carving, and traditional Kashmiri handicrafts. Artisans pass down their skills through generations.',
+      description:
+        'Known for handwoven textiles, wood carving, and traditional Kashmiri handicrafts. Artisans pass down their skills through generations.',
       color: 'from-blue-500 to-cyan-500',
     },
     {
       icon: Sparkles,
       title: 'Cultural Festivals',
-      description: 'Celebrations include traditional Kashmiri festivals, religious gatherings, and seasonal harvest festivals that bring communities together.',
+      description:
+        'Celebrations include traditional Kashmiri festivals, religious gatherings, and seasonal harvest festivals that bring communities together.',
       color: 'from-emerald-500 to-green-500',
     },
   ];
@@ -33,12 +37,15 @@ export function CultureHistory() {
     <section className="relative py-24 px-4 overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0 bg-gradient-to-br from-purple-900/40 via-blue-900/40 to-emerald-900/40"></div>
-      
+
       {/* Decorative Pattern */}
       <div className="absolute inset-0 opacity-5">
-        <div className="h-full w-full" style={{
-          backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
-        }}></div>
+        <div
+          className="h-full w-full"
+          style={{
+            backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fillRule='evenodd'%3E%3Cg fill='%23ffffff' fillOpacity='1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
+          }}
+        ></div>
       </div>
 
       <div className="relative max-w-7xl mx-auto">
@@ -50,11 +57,13 @@ export function CultureHistory() {
           className="text-center mb-16"
         >
           <h2 className="text-5xl md:text-6xl font-bold text-white mb-6">
-            DEVELOPER 
+            DEVELOPER
           </h2>
+
           <div className="w-24 h-1 bg-emerald-400 mx-auto mb-8"></div>
+
           <p className="text-xl text-white/80 max-w-3xl mx-auto">
-          Digital Developer of this website
+            Digital Developer of this website
           </p>
         </motion.div>
 
@@ -65,20 +74,21 @@ export function CultureHistory() {
           viewport={{ once: true }}
           className="mb-16"
         >
-                    <div className="relative h-96 rounded-3xl overflow-hidden">
-<a href="https://res.cloudinary.com/dxjkbpmgm/image/upload/v1778400212/IMG_20260506_210239_f2wwv8.png" target="_blank">
-  <img 
-    src="https://res.cloudinary.com/dxjkbpmgm/image/upload/v1779790372/WhatsApp_Image_2026-05-26_at_3.38.15_PM_yv63vk.jpg" 
-    alt="Image"
-    style="width:300px; cursor:pointer;"
-  >
-</a>
           <div className="relative h-96 rounded-3xl overflow-hidden">
-            
-              alt="Kashmir Culture"
-              className="w-full h-full object-cover"
-            />
+            <a
+              href="https://res.cloudinary.com/dxjkbpmgm/image/upload/v1778400212/IMG_20260506_210239_f2wwv8.png"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="https://res.cloudinary.com/dxjkbpmgm/image/upload/v1779790372/WhatsApp_Image_2026-05-26_at_3.38.15_PM_yv63vk.jpg"
+                alt="Muzamil Ahmad Mir"
+                className="w-full h-full object-cover cursor-pointer"
+              />
+            </a>
+
             <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent"></div>
+
             <div className="absolute bottom-8 left-8 right-8">
               <motion.h3
                 initial={{ opacity: 0, x: -30 }}
@@ -87,8 +97,8 @@ export function CultureHistory() {
                 className="text-4xl font-bold text-white mb-4"
               >
                 This website is developed by MUZAMIL AHMAD MIR.
-
               </motion.h3>
+
               <motion.p
                 initial={{ opacity: 0, x: -30 }}
                 whileInView={{ opacity: 1, x: 0 }}
@@ -96,8 +106,8 @@ export function CultureHistory() {
                 transition={{ delay: 0.2 }}
                 className="text-xl text-white/90"
               >
-                
-I have created this platform to represent our village digitally and make information easily accessible for everyone.
+                I have created this platform to represent our village digitally
+                and make information easily accessible for everyone.
               </motion.p>
             </div>
           </div>
@@ -112,7 +122,7 @@ I have created this platform to represent our village digitally and make informa
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.1 }}
-              whileHover={{ scale: 1.05, rotateY: 5 }}
+              whileHover={{ scale: 1.05 }}
               className="relative group"
             >
               <div className="bg-white/10 backdrop-blur-lg border border-white/20 rounded-3xl p-8 shadow-2xl h-full">
@@ -136,7 +146,9 @@ I have created this platform to represent our village digitally and make informa
                 </p>
 
                 {/* Decorative Element */}
-                <div className={`absolute top-0 right-0 w-32 h-32 bg-gradient-to-br ${item.color} opacity-10 rounded-bl-full blur-2xl -z-10`}></div>
+                <div
+                  className={`absolute top-0 right-0 w-32 h-32 bg-gradient-to-br ${item.color} opacity-10 rounded-bl-full blur-2xl -z-10`}
+                ></div>
               </div>
             </motion.div>
           ))}
