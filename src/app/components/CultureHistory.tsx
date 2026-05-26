@@ -68,7 +68,7 @@ export function CultureHistory() {
                     <div className="relative h-96 rounded-3xl overflow-hidden">
 <a href="https://res.cloudinary.com/dxjkbpmgm/image/upload/v1778400212/IMG_20260506_210239_f2wwv8.png" target="_blank">
   <img 
-    src="https://res.cloudinary.com/dxjkbpmgm/image/upload/v1778400212/IMG_20260506_210239_f2wwv8.png" 
+    src="https://res.cloudinary.com/dxjkbpmgm/image/upload/v1779790372/WhatsApp_Image_2026-05-26_at_3.38.15_PM_yv63vk.jpg" 
     alt="Image"
     style="width:300px; cursor:pointer;"
   >
