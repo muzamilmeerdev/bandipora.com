@@ -80,7 +80,7 @@ export function About() {
         className="absolute inset-0 bg-cover bg-center opacity-10"
         style={{
           backgroundImage:
-            "url('/bandipora-bg.jpg')",
+            "url('/bandipora-bg.jpg.png')",
         }}
       ></div>
 
