@@ -147,9 +147,11 @@ export function Developer() {
             {/* Profile */}
             <div className="text-center mb-12">
 
-              <div className="w-36 h-36 mx-auto rounded-full bg-gradient-to-br from-emerald-500 to-blue-500 flex items-center justify-center text-white text-6xl font-bold shadow-2xl mb-6">
-                M
-              </div>
+          <img
+  src="/developer.jpg"
+  alt="Muzamil Ahmad Mir"
+  className="w-36 h-36 mx-auto rounded-full object-cover border-4 border-emerald-400 shadow-2xl mb-6"
+/>
 
               <h3 className="text-4xl font-bold text-white mb-3">
                 Muzamil Ahmad Mir
