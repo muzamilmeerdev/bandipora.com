@@ -180,3 +180,164 @@ export function Developer() {
                 </span>
               </div>
             </div>
+                        {/* Skills */}
+            <div className="mb-12">
+              <h4 className="text-2xl font-bold text-white text-center mb-6">
+                Skills & Technologies
+              </h4>
+
+              <div className="flex flex-wrap justify-center gap-3">
+                {skills.map((skill) => (
+                  <span
+                    key={skill}
+                    className="px-4 py-2 bg-emerald-500/20 border border-emerald-400/20 rounded-full text-emerald-300 hover:bg-emerald-500/30 transition-all"
+                  >
+                    {skill}
+                  </span>
+                ))}
+              </div>
+            </div>
+
+            {/* Stats */}
+            <div className="grid md:grid-cols-3 gap-6 mb-12">
+
+              <motion.div
+                whileHover={{ y: -5 }}
+                className="bg-white/10 rounded-2xl p-6 text-center border border-white/10"
+              >
+                <h3 className="text-4xl font-bold text-white mb-2">
+                  20+
+                </h3>
+
+                <p className="text-white/70">
+                  Projects Completed
+                </p>
+              </motion.div>
+
+              <motion.div
+                whileHover={{ y: -5 }}
+                className="bg-white/10 rounded-2xl p-6 text-center border border-white/10"
+              >
+                <h3 className="text-4xl font-bold text-white mb-2">
+                  3+
+                </h3>
+
+                <p className="text-white/70">
+                  Years Experience
+                </p>
+              </motion.div>
+
+              <motion.div
+                whileHover={{ y: -5 }}
+                className="bg-white/10 rounded-2xl p-6 text-center border border-white/10"
+              >
+                <h3 className="text-4xl font-bold text-white mb-2">
+                  100%
+                </h3>
+
+                <p className="text-white/70">
+                  Client Satisfaction
+                </p>
+              </motion.div>
+
+            </div>
+
+            {/* Contact Links */}
+            <div className="grid sm:grid-cols-2 gap-6">
+              {developerLinks.map((link, index) => (
+                <motion.a
+                  key={index}
+                  href={link.href}
+                  target={
+                    link.label !== 'Phone'
+                      ? '_blank'
+                      : undefined
+                  }
+                  rel={
+                    link.label !== 'Phone'
+                      ? 'noopener noreferrer'
+                      : undefined
+                  }
+                  whileHover={{
+                    scale: 1.03,
+                    y: -5,
+                  }}
+                  className="bg-white/10 hover:bg-white/15 border border-white/20 rounded-2xl p-6 transition-all shadow-lg group"
+                >
+                  <div className="flex items-center space-x-4">
+
+                    <div
+                      className={`w-14 h-14 rounded-xl bg-gradient-to-br ${link.color} p-3 shadow-lg`}
+                    >
+                      <link.icon className="text-white w-full h-full" />
+                    </div>
+
+                    <div className="flex-1 text-left">
+                      <p className="text-white/70 text-sm mb-1">
+                        {link.label}
+                      </p>
+
+                      <p className="text-white font-semibold break-all">
+                        {link.value}
+                      </p>
+                    </div>
+
+                  </div>
+                </motion.a>
+              ))}
+            </div>
+
+            {/* Copy Phone */}
+            <div className="flex justify-center mt-8">
+              <button
+                onClick={copyPhone}
+                className="flex items-center gap-2 px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white rounded-full transition-all"
+              >
+                {copied ? (
+                  <>
+                    <CheckCircle size={18} />
+                    Copied
+                  </>
+                ) : (
+                  <>
+                    <Copy size={18} />
+                    Copy Phone Number
+                  </>
+                )}
+              </button>
+            </div>
+
+            {/* CV Download */}
+            <div className="text-center mt-8">
+              <a
+                href="/Muzamil-CV.pdf"
+                download
+                className="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-600 rounded-full text-white font-semibold shadow-lg transition-all"
+              >
+                <Download size={20} />
+                Download CV
+              </a>
+            </div>
+
+            {/* Footer Note */}
+            <div className="mt-12 text-center">
+              <p className="text-white/60 text-lg">
+                Thank you for exploring Bandipora with us!
+              </p>
+            </div>
+
+          </div>
+        </motion.div>
+
+        {/* Copyright */}
+        <div className="text-center mt-12 text-white/50">
+          <p>
+            © 2026 Bandipora Explorer.
+            All rights reserved.
+          </p>
+        </div>
+
+      </div>
+    </section>
+  );
+}
