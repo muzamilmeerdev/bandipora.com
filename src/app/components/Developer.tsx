@@ -148,7 +148,7 @@ export function Developer() {
             <div className="text-center mb-12">
 
           <img
-  src="/developer.jpg"
+  src="developer.jpg"
   alt="Muzamil Ahmad Mir"
   className="w-36 h-36 mx-auto rounded-full object-cover border-4 border-emerald-400 shadow-2xl mb-6"
 />
