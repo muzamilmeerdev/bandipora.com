@@ -123,9 +123,12 @@ export function Developer() {
               size={64}
             />
           </motion.div>
+          <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
+            Muzamil Ahmad Mir
+          </h1>
 
           <h2 className="text-5xl md:text-6xl font-bold text-white mb-6">
-            Developer
+            Full Stack Web Developer
           </h2>
 
           <div className="w-24 h-1 bg-emerald-400 mx-auto mb-8"></div>
@@ -158,9 +161,16 @@ export function Developer() {
               </h3>
 
               <p className="text-xl text-emerald-300 mb-4">
-                Full Stack Developer
+                Full Stack Developer 
               </p>
 
+<p className="text-white/80 max-w-2xl mx-auto leading-8 mb-6">
+  Hi, I'm <strong>Muzamil Ahmad Mir</strong>, a Full Stack Web Developer and
+  BCA student from Kashmir. I build modern, fast and responsive websites
+  using React, TypeScript, Next.js, Node.js, MongoDB and Tailwind CSS.
+  This website showcases my work, projects and the beauty of Bandipora.
+</p>
+              
               {/* Available Badge */}
               <div className="inline-flex items-center gap-2 bg-green-500/20 px-4 py-2 rounded-full border border-green-400/20">
                 <span className="w-3 h-3 bg-green-400 rounded-full animate-pulse"></span>
